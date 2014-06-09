@@ -1,0 +1,9 @@
+# system.prop for loganreltexx
+#
+
+rild.libpath=/system/lib/libril-qc-qmi-1.so
+rild.libargs=-d /dev/smd0
+telephony.lteOnGsmDevice=1
+ro.telephony.default_network=9
+ro.telephony.ril.v3=samsungEMSReq
+ro.chipname=MSM8930VV
